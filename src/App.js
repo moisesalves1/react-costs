@@ -9,11 +9,12 @@ function App() {
   return (
     <div className="App">
       <SayMyName nome={name}/>
+      <HelloWorld />
       <Pessoa 
         nome="Moises"
-        idade="24"
-        profissao="Programador"
-        foto="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDTTKabtgp5U6vNioZmPQVzc7Vcl30lAD-Pg&usqp=CAU"/>
+        idade='24'
+        profissao='programador'
+        foto='https://www.42frases.com.br/wp-content/uploads/2016/11/frases-para-fotos-1-1.jpg' />
     </div>
   );
 }
