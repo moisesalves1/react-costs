@@ -14,7 +14,7 @@ function App() {
       <SayMyName nome='Estático'/>
       <Frase />
       <Pessoa 
-        nome="Moises"
+        nme="Moises"
         idade='24'
         profissao='programador'
         foto='https://via.placeholder.com/150' />
