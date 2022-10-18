@@ -5,9 +5,9 @@ function List() {
         <>
             <h1>Minha lista</h1>
             <ul>
-                <Item name='Moises'/>
-                <Item name='Maria Eduarda'/>
-                <Item name='Maria Julia'/>
+                <Item marca='Ferrari' ano_lancamento={2022}/>
+                <Item marca='RedBull' ano_lancamento={2021}/>
+                <Item marca='Williams' ano_lancamento={2020}/>
             </ul>
         </>
     )
