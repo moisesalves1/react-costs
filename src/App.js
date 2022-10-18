@@ -1,5 +1,5 @@
 import './App.css';
-import HelloWorld from './components/HelloWorld.js';
+import Frase from './components/Frase';
 import Pessoa from './components/Pessoa';
 import SayMyName from './components/SayMyName';
 
@@ -8,13 +8,15 @@ function App() {
 
   return (
     <div className="App">
+      <Frase />
       <SayMyName nome={name}/>
-      <HelloWorld />
+      <SayMyName nome='Estático'/>
+      <Frase />
       <Pessoa 
         nome="Moises"
         idade='24'
         profissao='programador'
-        foto='https://www.42frases.com.br/wp-content/uploads/2016/11/frases-para-fotos-1-1.jpg' />
+        foto='https://via.placeholder.com/150' />
     </div>
   );
 }
